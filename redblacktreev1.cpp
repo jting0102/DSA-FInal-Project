@@ -379,6 +379,8 @@ public:
 
 int main()
 {
+	string state;
+	int order, info;
 	RedBlackTree tree;
 	ifstream inFile("censusdata1.csv");
 	if (inFile.is_open())
@@ -403,6 +405,16 @@ int main()
 		}
 		inFile.close();
 	}
-	tree.sortTable("Florida", 2, 4);
+	cout << "US Census Data Visualizer\n";
+	cout << "List of States:\n";
+	cout << "Alabama\nAlaska\nArizona\nArkansas\nCalifornia\nColorado\nConnecticut\nDelaware\nFloridaGeorgia\nHawaii\nIdaho\nIllinois\nIndiana\nIowa\nKansas\nKentucky\nLouisiana\nMaine\nMaryland\nMassachusetts\nMichigan\nMinnesota\nMississippi\nMissouri\nMontana\nNebraska\nNevada\nNew Hampshiren\nNew Jersey\nNew Mexico\nNew York\nNorth Carolina\nNorth Dakota\nOhio\nOklahoma\nOregon\nPennsylvania\nRhode Island\nSouth Carolina\nSouth Dakota\nTennessee\nTexas\nUtahVermont\nVirginia\nWashington\nWashington DC\nWest Virginia\nWisconsin\nWyoming\n";
+	cout << "Type a State: ";
+	cin >> state;
+	cout << "\nAscending (1) or Decending (2)?";
+	cin >> order;
+	cout << "\nSort By: ID (1) | Age (2) | Income (3) | Is Hispanic (4)?";
+	cin >> info;
+	cout << "\n";
+	tree.sortTable(state, order, info);
 
 }

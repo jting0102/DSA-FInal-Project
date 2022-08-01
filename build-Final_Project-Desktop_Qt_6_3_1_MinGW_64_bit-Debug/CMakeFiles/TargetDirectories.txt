@@ -1,0 +1,9 @@
+C:/Users/alexi/Documents/GitHub/DSA-FInal-Project/build-Final_Project-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/Final_Project.dir
+C:/Users/alexi/Documents/GitHub/DSA-FInal-Project/build-Final_Project-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+C:/Users/alexi/Documents/GitHub/DSA-FInal-Project/build-Final_Project-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/alexi/Documents/GitHub/DSA-FInal-Project/build-Final_Project-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+C:/Users/alexi/Documents/GitHub/DSA-FInal-Project/build-Final_Project-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/install.dir
+C:/Users/alexi/Documents/GitHub/DSA-FInal-Project/build-Final_Project-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+C:/Users/alexi/Documents/GitHub/DSA-FInal-Project/build-Final_Project-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+C:/Users/alexi/Documents/GitHub/DSA-FInal-Project/build-Final_Project-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/Final_Project_autogen_timestamp_deps.dir
+C:/Users/alexi/Documents/GitHub/DSA-FInal-Project/build-Final_Project-Desktop_Qt_6_3_1_MinGW_64_bit-Debug/CMakeFiles/Final_Project_autogen.dir
