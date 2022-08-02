@@ -334,32 +334,4 @@ public:
 		}
 	};
 
-int main()
-{
-	RedBlackTree tree;
-	ifstream inFile("ExportCSV.csv");
-	if (inFile.is_open())
-	{
-		string line;
-		getline(inFile, line);
-		while (getline(inFile, line))
-		{
-			stringstream stream(line);
-			string token;
-			getline(stream, token, ',');
-			unsigned int id = stoi(token);
-			getline(stream, token, ',');
-			unsigned int age = stoi(token);
-			getline(stream, token, ',');
-			unsigned int income = stoi(token);
-			getline(stream, token, ',');
-			string hispanic = token;
-			getline(stream, token, ',');
-			string state = token;
-			tree.insert(tree.getHead(), id, age, income, state, hispanic);
-		}
-		inFile.close();
-	}
-	tree.sortTable("Florida", 2, 4);
 
-}
