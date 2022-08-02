@@ -18,8 +18,13 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_comboBox_2_currentTextChanged(const QString &arg1)
 {
+    hashTable hash;
+    hash.addingData();
+    hash.sortTable(arg1.toStdString(),ui -> Ui_MainWindow::comboBox_3->currentIndex(), ui -> Ui_MainWindow::comboBox->currentIndex());
+
+    /*
     RedBlackTree tree;
-    ifstream inFile("censusdata1.csv");
+    ifstream inFile("ExportCSV.csv");
     if (inFile.is_open())
     {
         string line;
@@ -44,6 +49,8 @@ void MainWindow::on_comboBox_2_currentTextChanged(const QString &arg1)
     }
 
     tree.sortTable(arg1.toStdString(),ui -> Ui_MainWindow::comboBox_3->currentIndex(), ui -> Ui_MainWindow::comboBox->currentIndex());
+    */
+
 }
 
 
