@@ -74,30 +74,6 @@ class RedBlackTree
 		newParent->left->parent = newParent;
 		return newParent;
 	}
-	//int LevelCount(personNode* root)
-	//{
-	//	if (root == NULL)
-	//	{
-	//		return 0;
-	//	}
-	//	else
-	//	{
-	//		int leftHeight = LevelCount(root->left) + 1;
-	//		int rightHeight = LevelCount(root->right) + 1;
-	//		if (leftHeight >= rightHeight)
-	//		{
-	//			return leftHeight;
-	//		}
-	//		else
-	//		{
-	//			return rightHeight;
-	//		}
-	//	}
-	//}
-
-	//qualifications for the conditional statements taken from module 4 powerpoint, balanced trees. This helper function rotates the nodes of the tree when neccesary.
-	
-
 	void setHead(personNode* head)
 	{
 		this->head = head;
